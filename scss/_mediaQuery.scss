@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px){
+    .buscador{
+        position:relative;
+        left: 80vw;}
+    }
+
+@media only screen and (min-width: 768px){
+.buscador{
+    position:relative;
+    left: 50vw;}
+}
+@media only screen and (max-width: 320px){
+    .slide{
+        grid-template-columns: repeat(min-content);
+    }
+    }

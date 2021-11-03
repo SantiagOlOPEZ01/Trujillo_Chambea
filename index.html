@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<!--descripción-->
+<meta name="description" content="¿desempleado? Trujillo chambea te da la mano gratuitamente para que publiques tu hoja de vida y tus habilidades para ayudar a alguien que los necesite">
+
+<!--keywords-->
+<meta name="Keywords" content="Trujillo chambea trabajos Perú oportunidades servicios">
+
+<!--css-->
+<link rel="stylesheet" href="css/styles.css">
+
+<!--boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Trujillo Chambea - consigue trabajo - ofrece tus habilidades</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row principales">
+            <img class="col-md-5 principales_img" src="imagenes/logo.jpg">
+            <h1 id="principales_nombrePag" class="col-md-7 titulo">Trujillo Chambea</h1>
+            <div class="colum botones">
+                <button type="button" class=" row btn btn-outline-warning" id="principales_boton1">Ingresar</button>
+                <button type="button" class=" row btn btn-outline-warning" id="principales_boton2">Registrar</button>
+            </div>
+        </div>
+
+        <nav  id="menuPrincipal" class=" row navbar navbar-expand-md navbar-light bg-ambar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-controls="MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="publicar.html">Publicar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="misiyvisi.html">Misión y Visión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid Contenido">
+      <div class="row">
+          <div id="carouselExampleIndicators" class=" colum carousel contenido_slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button id="slide_btn1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button id="slide_btn2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button id="slide_btn3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagenes/imagen1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/imagen2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/imagen3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span id="flechitaPrevious" class="visually-hidden">Previous</span>
+              </button>
+              <button id="flechitaNext" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <div class=" colum div_acciones">
+              <div class="botonOfrecer">
+                  <img src="imagenes/ofrecerServ.png">
+                  <a id="botonOfre" href="">
+                      Ofrece tus servicios
+                  </a>
+              </div>
+              <div class="botonBuscar">
+                  <img src="imagenes/buscarTrab.png">
+                  <a id="botonBus" href="">
+                      Busca empleo
+                  </a>
+              </div>
+              <div class="botonPublicarO">
+                  <img src="imagenes/buscarEmpl.png">
+                  <a id="botonPubli" href="">
+                      Oferta
+                  </a>
+              </div>
+          </div>
+      </div>        
+      </main>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <h3>Síguenos en:</h3>
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i>Facebook
+            </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></I>Twitter</a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            >Google</a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            >instagram</a>
+          </section>
+          <!-- Section: Social media -->            
+      </footer>
+    <!--boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

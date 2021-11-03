@@ -1,0 +1,38 @@
+header {
+    .principales{
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    grid-template-areas: "imagenPrincipal tituloP Botones"
+                        "menu menu menu";
+
+                        .principales_img{
+                            width: 20vw;
+                            grid-area: "imagenPrincipal" ;
+                                        }
+                            #principales_nombrePag{
+                            font-size: 5vw;
+                            position: relative;
+                            justify-items: left;
+                            margin-top: 10vw;
+                                    }
+                            #principales_boton1{
+                            margin-right: 5vw;    
+                                    }
+                }
+    
+}
+.navbar{
+    background-color: $colorAmarillo;
+    border-radius: 50px;
+    margin-bottom: 5vw;
+    a{
+        color: $colorBlanco;
+        a:hover{
+            background: $coloRojo;
+            /**opacity es para saber que trasparente queremos el atributo*/
+            opacity: 90%;
+            border-radius: 100PX;
+        }
+        
+    }
+}

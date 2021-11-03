@@ -1,0 +1,51 @@
+/*slider*/
+.Contenido {
+    display: grid;
+    grid-auto-columns: 60% 40%;
+    grid-template-areas: "Slider Acciones";
+    .contenido_slide{
+        grid-area: Slider;
+    
+        border: solid 5px $coloRojoFuerte;
+        border-radius: 5%;
+        margin-left: 2vw;
+        #slide_btn1 {
+            background-color: $colorAmarillo;
+        }
+        #slide_btn2 {
+            background-color: $colorAmarillo;
+        }
+        #slide_btn3 {
+            background-color: $colorAmarillo;
+        }
+    }
+}
+/*acciones*/
+.div_acciones{
+    grid-area: Acciones;
+    img{
+        width: 30%;
+        margin-left: 5%;
+        padding: 5px;
+    }
+    div{
+        background-color: $coloRojoFuerte;
+        align-content: space-around;
+        margin-left: 10px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        border-radius: 10px;
+    }
+    a{
+        font-size: 2vw;
+        color: $colorBlanco;
+        background-color: $coloRojoFuerte;
+        border: $coloRojoFuerte;
+        text-decoration: none;
+        margin-top: 300px;
+        
+    }
+    
+}
+
+

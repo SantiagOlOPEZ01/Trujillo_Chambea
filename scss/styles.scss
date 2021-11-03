@@ -1,0 +1,16 @@
+@import "variables";
+@import "body";
+@import "header";
+@import "footer";
+@import "index";
+@import "ofertas";
+@import "formularios";
+@import "MisiyVisi";
+@import "mediaQuery";
+
+body{
+
+    @if $diaespecial == independencia{
+        background-color:red;      
+    }
+}

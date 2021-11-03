@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--descripción-->
+<meta name="description" content="Publica tu hoja de vida con nosotros y obtén resultados reales, preséntale al mundo tus habilidades y en lo que eres bueno">
+
+    <!--keywords-->
+<meta name="Keywords" content="Trujillo chambea trabajos Perú oportunidades servicios publicar trabajo">
+
+    <!--css-->
+<link rel="stylesheet" href="css/styles.css">
+
+<!--boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Trujillo Chambea - publica las habilidades que tienes</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row principales">
+            <img class="col-md-5 principales_img" src="imagenes/logo.jpg">
+            <h1 id="principales_nombrePag" class="col-md-7 titulo">Trujillo Chambea</h1>
+            <div class="colum botones">
+                <button type="button" class=" row btn btn-outline-warning" id="principales_boton1">Ingresar</button>
+                <button type="button" class=" row btn btn-outline-warning" id="principales_boton2">Registrar</button>
+            </div>
+        </div>
+
+        <nav  id="menuPrincipal" class=" row navbar navbar-expand-md navbar-light bg-ambar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-controls="MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="publicar.html">Publicar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="misiyvisi.html">Misión y Visión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+                <form action="#" method="POST" class="container formulario">
+                    
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Ingresa tu nombre</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="areaOferta" class="form-label">Área de la oferta</label>
+                        <select id="areaOferta" class="form-select">
+                            <option value="Educación">Educación</option>
+                            <option value="Gastronomia">Gastronomia</option>
+                            <option value="Construcción">Construcción</option>
+                            <option value="Administrativo">Administrativo</option>
+                            <option value="Sistemas">Sistemas</option>
+                            <option value="Medicina">Medicina</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Descripción</label>
+                        <input type="text" id="descripcion" class="form-control" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Ejemplo: Los servicios que ofreces</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Telefono contacto</label>
+                        <input type="number" id="telefono" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="correo" class="form-label">Correo electronico</label>
+                      <input type="email" class="form-control" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Ejemplo: minombre@hotamil.com</div>
+                    </div>
+                    <div class="mb-3 form-group">
+                        <label for="imagen" class="form-label">Selecciona la imagen de oferta</label>
+                        <br>
+                        <input type="file" id="imagen" class="form-control-file">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-danger">Limpiar</button>
+                  </form>
+    </main>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <h3>Síguenos en:</h3>
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i>Facebook
+            </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></I>Twitter</a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            >Google</a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            >instagram</a>
+          </section>
+          <!-- Section: Social media -->            
+      </footer>
+     <!--boostrap-->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif; }
+
+header .principales {
+  display: grid;
+  grid-template-columns: 25% 40% 35%;
+  grid-template-areas: "imagenPrincipal tituloP Botones"
+ "menu menu menu"; }
+  header .principales .principales_img {
+    width: 20vw;
+    grid-area: "imagenPrincipal"; }
+  header .principales #principales_nombrePag {
+    font-size: 5vw;
+    position: relative;
+    justify-items: left;
+    margin-top: 10vw; }
+  header .principales #principales_boton1 {
+    margin-right: 5vw; }
+
+.navbar {
+  background-color: #F4D60F;
+  border-radius: 50px;
+  margin-bottom: 5vw; }
+  .navbar a {
+    color: #FFFFFF; }
+    .navbar a a:hover {
+      background: #E03F52;
+      /**opacity es para saber que trasparente queremos el atributo*/
+      opacity: 90%;
+      border-radius: 100PX; }
+
+footer {
+  margin-top: 5vw; }
+
+/*slider*/
+.Contenido {
+  display: grid;
+  grid-auto-columns: 60% 40%;
+  grid-template-areas: "Slider Acciones"; }
+  .Contenido .contenido_slide {
+    grid-area: Slider;
+    border: solid 5px red;
+    border-radius: 5%;
+    margin-left: 2vw; }
+    .Contenido .contenido_slide #slide_btn1 {
+      background-color: #F4D60F; }
+    .Contenido .contenido_slide #slide_btn2 {
+      background-color: #F4D60F; }
+    .Contenido .contenido_slide #slide_btn3 {
+      background-color: #F4D60F; }
+
+/*acciones*/
+.div_acciones {
+  grid-area: Acciones; }
+  .div_acciones img {
+    width: 30%;
+    margin-left: 5%;
+    padding: 5px; }
+  .div_acciones div {
+    background-color: red;
+    align-content: space-around;
+    margin-left: 10px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 10px; }
+  .div_acciones a {
+    font-size: 2vw;
+    color: #FFFFFF;
+    background-color: red;
+    border: red;
+    text-decoration: none;
+    margin-top: 300px; }
+
+/*pagina ofertas*/
+.ofertas img {
+  width: 300px;
+  margin: 10px; }
+
+.ofertas h2 {
+  font-size: 5vw;
+  color: red;
+  font-style: italic; }
+
+.ofertas div {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  margin-bottom: 2vw; }
+  .ofertas div .botonesAcc {
+    margin-bottom: 2vw; }
+
+.ofertas span {
+  margin: 5px;
+  font-weight: bolder;
+  font-size: 20px; }
+
+.formulario {
+  background-color: aqua;
+  border-radius: 20px; }
+  .formulario button {
+    margin-bottom: 2vw; }
+
+/*mision vision*/
+.contenidoMisiYVisi {
+  margin: 5vw; }
+  .contenidoMisiYVisi h3 {
+    font-size: 30px;
+    color: #afaf19; }
+  .contenidoMisiYVisi span {
+    font-size: 20px;
+    font-style: italic; }
+  .contenidoMisiYVisi #MisionTi {
+    display: flex;
+    justify-content: flex-end; }
+
+@media only screen and (min-width: 1024px) {
+  .buscador {
+    position: relative;
+    left: 80vw; } 
+  .contenido{
+    grid-template-columns:90% 2fr;
+
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .buscador {
+    position: relative;
+    left: 50vw; }
+    .contenido{
+      grid-template-columns:90% 1fr;
+  
+    }
+  
+  }
+
+@media only screen and (max-width: 320px) {
+  .slide {
+    grid-template-columns: repeat(min-content); }
+  
+    .contenido{
+      grid-template-columns:50% 1fr;
+  
+    }}
+
+
+
+body {
+  background-color: red; }

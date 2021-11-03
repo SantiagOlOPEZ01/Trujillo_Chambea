@@ -1,0 +1,27 @@
+/*pagina ofertas*/
+
+.ofertas {
+    img{
+    width: 300px;
+    margin: 10px;
+        }
+    h2{
+    font-size: 5vw;
+    color: $coloRojoFuerte;
+    font-style: italic;
+    }
+    div{
+     background-color: $colorAzul;
+    border-radius: 10px;
+    margin-bottom:2vw;
+        .botonesAcc{
+        margin-bottom: 2vw;
+                     }
+    }
+    span{
+        margin: 5px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    }
